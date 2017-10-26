@@ -1,0 +1,38 @@
+{
+  "name": "eams-api",
+  "version": "0.1.0",
+  "description": "Data Interface of TJCU educational management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "./node_modules/.bin/nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngon-cn/eams-api.git"
+  },
+  "keywords": [
+    "tjcu",
+    "eams",
+    "api"
+  ],
+  "author": "F-loat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youngon-cn/eams-api/issues"
+  },
+  "homepage": "https://github.com/youngon-cn/eams-api#readme",
+  "dependencies": {
+    "auth-tjcu": "^0.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "jwt-simple": "^0.5.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "superagent": "^3.7.0",
+    "superagent-charset": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
